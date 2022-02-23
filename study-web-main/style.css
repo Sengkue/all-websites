@@ -1,0 +1,110 @@
+body{
+	margin: 0px;
+}
+#container{
+margin-top: 10px;
+
+}
+/*#navbar{
+	border-left: 5px solid blue;
+	border-bottom: 5px solid blue;
+	border-right: 5px solid blue;
+	text-align: center;
+	margin: 0px;
+	box-shadow: 5px 5px red;
+
+
+}*/
+
+/*html*/
+
+	
+
+div .content1{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    /* border: 0px solid green;
+    height: all;
+    width: 48%;
+    float: left;
+     */
+
+	
+
+	}
+/* .content2{
+	border: 0px solid green;
+	 height: all;
+    width: 30%;
+    float: right;
+	
+} */
+
+/*li{
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	list-style: none;
+	text-transform: uppercase;
+
+}
+*/
+#navbar{
+	font-family: fantasy;
+	border-bottom: 2px solid lightslategray;
+}
+#navbar ul li a {
+   text-decoration: none;
+}
+nav li{
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 10px;
+	margin: 0px;
+	list-style: none;
+	text-transform: uppercase;
+	
+
+}
+
+#push{
+	float: right;
+
+}
+
+
+#nrab{
+/*	justify-content:center;*/
+	border: 5px solid darkred;
+	margin-top: 15px;
+	text-align: center;
+	background-image: url(skv-middle.jpg);
+	background-size: cover;
+}
+
+.skvcenter{
+	justify-content: center;
+}
+
+img{
+	width:450px;
+	height:300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+	
+}
+
+/* .container{
+	display: flex;
+	justify-content: space-around
+    
+}
+.nyob{
+	border: 1px solid red;
+	width: 300px;
+} */

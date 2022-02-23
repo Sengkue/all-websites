@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javsscript + DOM</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            #border {
+            border-style: solid;
+             border-color: rgb(87, 86, 85);
+             background: radial-gradient(rgba(209, 243, 130, 0.973), transparent);
+            }
+            button.send{
+                margin-top: 1px;
+                background-color: rgb(141, 141, 168);
+            }
+     </style>
+</head>
+<body bgcolor="#e9ebee">
+  <div id="border">
+     <center>
+          <h1 style="font-family: phetsarath ot;">ທ. ເຊັງວ່າງ ບຼົ່ງໄມ   ຫ້ອງ 2cw1</h1>
+              <svg id="mother" height="450" width="100%">
+                  <circle id="put" cx="" cy="" r="" stroke="lime" stroke-width="3" fill="" />
+            </svg>
+</center>
+   </div id="controller">
+<!-- INPUT VALUE  -->
+        <input type="text" id="cr" value="" placeholder="ຍ້າຍໄປເບື່ອງຊ້າຍ">:CX<BR>
+        <input type="text" id="cy" value=""placeholder="ຍ້າຍລົງ">:CY<BR>
+        <input type="text" id="r" value=""placeholder="ພື່ນທີ່">:R<BR>
+        <input type="text" id="stroke" value=""placeholder="ສີຄອກ">:STROKE<BR>
+        <input type="text" id="strocke-width" value=""placeholder="ຄວາມໜາຂອງເສັ້ນຄອກ">:STROKE-WIDTH<BR>
+        <input type="text" id="color-fill" value=""placeholder="ສີຮູບພື່ນທີ່">:COLOR-FILL<BR>
+<!-- BUTTON SEND VALUE -->
+        <button class="send" onclick="myFunctionskv()">SEND_VALUE</button>
+
+   <br>-----------------------------------<br>
+<!-- BOTTON SAVE WITH THE VALUE -->
+        <button onclick="myFunction()">blue</button>
+        <button onclick="myFunctions()">Silver</button>
+        <button onclick="myFunctionss()">big</button>
+        <button onclick="myFunctionsmall()">small</button>
+    </div>
+<script>
+    function myFunctionskv() {
+        var cx = document.getElementById("cr").value;
+        var cy = document.getElementById("cy").value;
+        var r = document.getElementById("r").value;
+        var stroke = document.getElementById("stroke").value;
+        var st = document.getElementById("strocke-width").value;
+        var col = document.getElementById("color-fill").value;
+        document.getElementById("put").style.cx = cx;  
+        document.getElementById("put").style.cy = cy;
+        document.getElementById("put").style.r = r;  
+        document.getElementById("put").style.stroke = stroke;
+        document.getElementById("put").style.strokeWidth=st;  
+        document.getElementById("put").style.fill = col;
+    }
+//  FUNTION OF BUTTON
+        function myFunction() {
+        document.getElementById("put").style.fill= "blue";
+        }
+        function myFunctions() {
+        document.getElementById("put").style.fill= "silver";
+        }
+        function myFunctionss() {
+        document.getElementById("put").style.r= "140";
+        }
+        function myFunctionsmall() {
+        document.getElementById("put").style.r= "40";
+        }
+</script>
+
+</body>
+</html>
