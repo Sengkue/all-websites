@@ -25,6 +25,6 @@
         <a href="https://sengkue.github.io/all-websites/springboot1-main">review</a>
     <li>study-web-main</li>
         <a href="https://sengkue.github.io/all-websites/study-web-main">review</a>
-     <li>study-web-main</li>
+     <li>about mail</li>
         <a href="https://sengkue.github.io/all-websites/send mail">review</a>
 </ol>
