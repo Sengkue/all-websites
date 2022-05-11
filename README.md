@@ -27,4 +27,6 @@
         <a href="https://sengkue.github.io/all-websites/study-web-main">review</a>
      <li>about mail</li>
         <a href="https://sengkue.github.io/all-websites/send mail">review</a>
+    <li>about mail</li>
+        <a href="https://sengkue.github.io/all-websites/web-get-my-notes">review</a>
 </ol>
